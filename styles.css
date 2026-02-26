@@ -15,7 +15,6 @@ body {
     font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           "Liberation Mono", "Courier New", monospace;
   color: white;
-  letter-spacing:0.2em !important;
 }
 
 a {
@@ -63,4 +62,26 @@ a {
   max-width: 400px;   /* match your container */
   margin: 24px auto;
   border-radius: 12px;
+}
+
+.site-footer {
+  margin-top: 80px;
+  padding: 28px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-text {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-link {
+  color: cyan;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
