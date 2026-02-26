@@ -1,0 +1,63 @@
+.bg-black {
+    background-color: black;
+}
+
+body h1 h2 h3 {
+    letter-spacing:0.5em;
+}
+
+.profont {
+      font-family: "ProFontWindows", monospace;
+}
+
+body {
+
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+  color: white;
+  letter-spacing:0.2em !important;
+}
+
+
+
+.main-ctr {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+
+.product-image {
+  display: block;
+  width: 100%;
+  max-width: 700px;   /* tweak as you like */
+  margin: 24px auto 0;
+  border-radius: 12px;
+}
+
+.features > ul > li {
+
+    color:white;
+    font-size:30px;
+    letter-spacing:0.01em;
+    margin-bottom: 20px;
+}
+
+.story {
+    color:white;
+    font-size:30px;
+    letter-spacing:0.01em;
+    margin-bottom: 20px;
+}
+
+  .buy-link { color: white; text-decoration: none; }
+  .buy-link:hover { text-decoration: underline; }
+
+  .demo-video{
+
+  width: 100%;
+  max-width: 400px;   /* match your container */
+  margin: 24px auto;
+  border-radius: 12px;
+}
